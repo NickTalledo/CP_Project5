@@ -1,0 +1,33 @@
+.dashboard {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+label,
+select {
+  margin-bottom: 10px;
+}
+
+.stats {
+  font-weight: bold;
+  margin-top: 20px;
+}
